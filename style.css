@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgb(31, 192, 179);
+}
+
+i {
+    font-size: 50px
+}
+
+.navigation {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    color: black;
+    background-color: transparent;
+    justify-content: space-between;
+}
+
+.marge {
+    margin: 1em;
+}
+
+#mapid {
+    border: 2px solid rgb(31, 192, 179);
+    border-radius: 6px;
+    width: 500px;
+    height: 600px;
+}
+
+#myChart {
+    border: 2px solid rgb(31, 192, 179);
+    border-radius: 6px;
+    width: 500px;
+    height: 600px;
+    margin-top: 5px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
