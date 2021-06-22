@@ -26,20 +26,17 @@
     </header>
 
     <section class="container">
-        
-        <div class="center marge ">
-            <input list="villes" type="text" id="keyword">
-            <datalist id="villes"></datalist>
+        <div class="row">
+            <div class="col-md col-sm py-3">
+                <input list="villes" type="text" id="keyword">
+                <datalist id="villes"></datalist>
+            </div>
+            <div class="col-md col-sm py-3"> Température actuelle : <span id="temp"> </span> °C </div>
         </div>
-
-        <div class="center"> Température actuelle : <div id="temp"> </div> °C </div>
-
-
-        <div class= "center">
-            <div class="marge"><div id="mapid"></div></div>
-            <div class="marge"><canvas id="myChart" width="500" height="600" margin-top="5px"></canvas></div>
-        </div>
-        
+        <div class="row">
+            <div class="marge col-md-6 col-sm-12"><div id="mapid"></div></div>
+            <div class="marge col-md-6 col-sm-12"><canvas id="myChart" width="500" height="600" margin-top="5px"></canvas></div>
+        </div>  
     </section>
 
     <script src="https://kit.fontawesome.com/5a8a085897.js" crossorigin="anonymous"></script>    
